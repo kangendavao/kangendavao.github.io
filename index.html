@@ -5,61 +5,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Enagic About &raquo; What Makes Enagic® Different?</title>
-
-
 	<meta name="description"
 		content="For over four decades, Enagic International has been the leader in manufacturing water- ionization systems that transform regular tap water into pure, healthy, electrolytically-reduced and hydrogen-rich drinking water.">
 	<meta name="keywords"
 		content=", kangen water, alkaline water, business water, anti-oxidizing water, hydrating water, beauty water, restaurant, spa, sanitation, eco-friendly sanitation">
-
-
-	<link rel="manifest" href="/manifest.json">
-	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-	<script>
-		var OneSignal = window.OneSignal || [];
-
-
-
-		OneSignal.push(["init", {
-			appId: "bb338cc4-445d-4a9d-a962-8354f4664e4f",
-			//		path: '/include/onesignal/',
-			autoRegister: false,
-			persistNotification: true,
-			welcomeNotification: {
-				"title": "Welcome to Enagic Notifications!",
-				"message": "You'll now receive the latest news!"
-				// "url": "" 
-			},
-			notifyButton: {
-				enable: true,
-				prenotify: true,
-				position: 'bottom-left',
-				size: 'medium',
-				showCredit: false,
-				displayPredicate: function () {
-					return OneSignal.isPushNotificationsEnabled().then(function (isPushEnabled) {
-						return !isPushEnabled;
-					});
-				}
-			}
-		}]);
-	</script>
-	<base href="/">
-
-	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/pack.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
 		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin="anonymous"></script>
-	<!-- include custom JavaScript -->
 	<script src="js/jquery.main.js" defer></script>
-	<script src="js/pack.js" defer></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js" defer></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min.js" defer></script>
-
 	<link rel="stylesheet" href="css/mycustom.css">
 </head>
 
@@ -452,8 +408,8 @@
 			<!-- start banner section -->
 			<section class="banner-section">
 				<div class="bg-stretch">
-					<span data-srcset="img/man-drinking.jpg"></span>
-					<!-- <img src="img/man-drinking.jpg" alt="Man Drinking Water"> -->
+					<!-- <span data-srcset="img/man-drinking.jpg"></span> -->
+					<img src="img/man-drinking.jpg" alt="Man Drinking Water">
 				</div>
 				<div class="text-block">
 					<!-- <h1>What Makes <br> Enagic<small>&reg;</small> Different?</h1> -->
@@ -464,11 +420,6 @@
 							acidic waters through electrolysis.</p>
 						<p>These waters can be used for various purposes, including drinking, cooking, beauty, and
 							cleaning.</p>
-						<!-- <p>For over four decades, Enagic International has been the leader in manufacturing water-
-							ionization systems that transform regular tap water into pure, healthy,
-							electrolytically-reduced and hydrogen-rich drinking water.</p>
-						<p>This Japan-based company internationally distributes hundreds of thousands of Kangen Water®
-							machines to homes all over the globe.</p> -->
 					</div>
 				</div>
 			</section>
@@ -811,43 +762,14 @@
 			<div class="bottom-row">
 				<div class="row-holder">
 					<ul class="add-links">
-						<li><a href="/?c=privacypolicy">Privacy Policy</a></li>
-						<li><a href="/?c=sitemap">Sitemap</a></li>
+						<li><a href="/policy">Privacy Policy</a></li>
+						<li><a href="/sitemap">Sitemap</a></li>
 					</ul>
-					<span class="copy">Copyright &copy; 2003-2018 Enagic.com &amp; EnagicWebSystem.com - All rights
+					<span class="copy">Copyright &copy; 2018 kangendavaosite.com - All rights
 						reserved. Kangen Water &reg; is a registered trademark of Enagic Co., Ltd.</span>
 				</div>
 			</div>
 		</footer>
-
-
-		<!--Start of Zopim Live Chat Script-->
-		<!-- <script type="text/javascript">
-			window.$zopim || (function (d, s) {
-				var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
-					d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
-						z.set.
-							_.push(o)
-					}; z._ = []; z.set._ = []; $.async = !0; $.setAttribute("charset", "utf-8");
-				$.src = "//v2.zopim.com/?3yXWfFzCcqjtPtYM7coGi0QlsYCZn2tK"; z.t = +new Date; $.
-					type = "text/javascript"; e.parentNode.insertBefore($, e)
-			})(document, "script");
-		</script> -->
-		<!--End of Zopim Live Chat Script-->
-
-
-		<!-- <script type="text/javascript">
-			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-			try {
-				var pageTracker = _gat._getTracker("UA-12908135-1");
-				pageTracker._setDomainName(".enagic.com");
-				pageTracker._trackPageview();
-			} catch (err) { }
-		</script> -->
-
 </body>
 
 </html>
