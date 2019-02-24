@@ -461,23 +461,28 @@
 				</div>
 			</section>
 			<div id="proof"></div>
-			<div class="proof-kangen-works__main">
-				<h1>Proof KANGEN Works!</h1>
-				<section class="proof-kangen-works__article">
-					<div class="proof-kangen-works__video">
-						<h3>Benefits of Kangen Water</h3>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/_Vj_JcrJNlM" frameborder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
-					<div class="proof-kangen-works__video">
-						<h3>Celebrities uses Kangen</h3>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/jNhqfgQ4lWg" frameborder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
-				</section>
-			</div>
+			<div class="proof-kangen-works__main"></div>
+			<script>
+				setTimeout(() => {
+					const proof = document.querySelector('.proof-kangen-works__main');
+					const pageToRender = `<h1>Proof KANGEN Works!</h1>
+							<section class="proof-kangen-works__article">
+							<div class="proof-kangen-works__video">
+								<h3>Benefits of Kangen Water</h3>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/_Vj_JcrJNlM" frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+							<div class="proof-kangen-works__video">
+								<h3>Celebrities uses Kangen</h3>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/jNhqfgQ4lWg" frameborder="0"
+									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</section>`;
+					proof.innerHTML = pageToRender;
+				}, 5000)
+			</script>
 			<section class="section no-space">
 				<div class="text-wrap">
 					<h2 class="text-center">Company Culture, Personal Growth &amp; Business Opportunity</h2>
