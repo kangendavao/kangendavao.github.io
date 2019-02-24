@@ -5,6 +5,10 @@ body {
     transition: all ease-out 0.2s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 small,
 h1 .small,
 .h1 small,
