@@ -5152,7 +5152,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-default .navbar-text {
-    color: #004da1;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -5161,8 +5161,8 @@ input[type="button"].btn-block {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #fff;
-    background-color: #004da1;
+    color: #004da1;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -12342,7 +12342,7 @@ tbody.collapse.in {
     border-radius: 4px;
     left: 0;
     top: 0;
-    background: #004da1;
+    background: #fff;
 }
 
 .nav-active .nav-opener:before,
@@ -18589,7 +18589,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     .header-holder {
         display: block;
         position: fixed;
-        background: #fff;
+        background: rgba(9, 132, 227, 0.9);
         top: 0;
         padding: 0;
         right: 0;
@@ -18600,6 +18600,7 @@ only screen and (min-device-pixel-ratio:1.5) {
         -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
         transform: translateX(100%);
+        /* border-bottom: 3px solid #004da1; */
     }
     .nav {
         width: 100%;
@@ -21244,7 +21245,7 @@ a.bbb {
 }
 
 .nav-opener {
-    background-color: #FFF;
+    /* background-color: #FFF; */
     border-radius: 4px;
 }
 
