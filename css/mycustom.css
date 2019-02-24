@@ -1,0 +1,80 @@
+.proof-kangen-works__main {
+    margin-top: 5rem;
+}
+
+.proof-kangen-works__main h1 {
+    margin: 0;
+    font-size: 2.7rem;
+}
+
+.proof-kangen-works__article {
+    padding: 5rem 1rem;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.proof-kangen-works__video {
+    width: 100%;
+}
+
+.proof-kangen-works__article h3 {
+    font-size: 2.5rem;
+    margin: 1rem auto;
+}
+
+.proof-kangen-works__video iframe {
+    width: 100%;
+}
+
+.proof-kangen-works__video:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+    .proof-kangen-works__main {
+        margin-top: 10rem;
+    }
+
+    .proof-kangen-works__main h1 {
+        margin: 0;
+        font-size: 6rem;
+    }
+
+    .proof-kangen-works__article {
+        padding: 5rem;
+    }
+
+    .proof-kangen-works__article h3 {
+        font-size: 3rem;
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .proof-kangen-works__main {
+        margin-top: 10rem;
+    }
+
+    .proof-kangen-works__main h1 {
+        margin: 0;
+        font-size: 8rem;
+    }
+
+    .proof-kangen-works__article {
+        flex-flow: row;
+    }
+
+    .proof-kangen-works__video {
+        width: 560px;
+        height: 315px;
+        margin: 2.5%;
+    }
+
+    .proof-kangen-works__article h3 {
+        font-size: 3rem;
+        margin: 1rem auto;
+    }
+}
