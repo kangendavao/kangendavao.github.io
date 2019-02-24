@@ -12453,7 +12453,7 @@ tbody.collapse.in {
 }
 
 .banner .bg-stretch:before {
-    display: none;
+    /* display: none; */
 }
 
 .banner .bg-stretch .content-holder {
